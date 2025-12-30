@@ -28,3 +28,22 @@ Q4) For my network configuration, I chose to use the NAT (Network Address Transl
 Using NAT also keeps the setup simple. VirtualBox automatically assigns the VM an internal IP address in the 10.0.2.x range, and my server received an address such as 10.0.2.15. This address is only accessible inside the virtual environment, which prevents conflicts with my real network while still allowing full internet access for updates and package installations.
 
 Overall, NAT gives me a secure, simple, and realistic network setup. It provides internet access, supports SSH connectivity through port forwarding if needed, and keeps the server isolated from my physical network. This makes it ideal for a headless Ubuntu Server used in a virtualised environment.
+
+
+
+
+Q5) uname prompt
+
+<img width="1280" height="800" alt="1" src="https://github.com/user-attachments/assets/499541bc-10d8-47ba-93d5-a881653377bd" />
+
+free prompt
+
+<img width="1280" height="800" alt="2" src="https://github.com/user-attachments/assets/4ef08f87-e9d4-4f12-9541-fddf2a71a9c6" />
+
+df-h prompt
+
+<img width="1280" height="800" alt="3" src="https://github.com/user-attachments/assets/b73ae03c-6607-4dc6-930c-ce55769c0765" />
+
+ip addr and lsb_release prompt
+
+<img width="1280" height="800" alt="4 and 5" src="https://github.com/user-attachments/assets/439c5e99-ca7d-486c-a72b-9c42771a2a34" />
