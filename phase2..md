@@ -14,7 +14,7 @@ A realistic simulation of professional remote administration workflows.
 The monitoring process will focus on these areas:
 
 CPU Usage  
-I will use tools like top, htop, and vmstat to check CPU load, process behavior, and system responsiveness.
+I will use tools stressng to check CPU load, process behavior, and system responsiveness.
 
 Memory Usage  
 Commands such as free -h and vmstat will help find memory pressure, swap usage, and RAM allocation patterns.
@@ -23,10 +23,7 @@ Disk I/O
 Using iostat and df -h, I will measure disk read/write rates and pinpoint potential I/O bottlenecks.
 
 Network Activity  
-Tools like ss, netstat, iftop, and iperf3 will help analyze active connections, bandwidth use, latency, and throughput.
-
-System Logs  
-I will review logs like /var/log/syslog and /var/log/auth.log for any anomalies, authentication attempts, and system warnings.
+Tools like iperf3 to help analyze active connections, bandwidth use, latency, and throughput.
 
 1.3 Testing Approach  
 1. Baseline Capture  
@@ -35,8 +32,7 @@ Before applying any security settings, I will record:
 CPU load,  
 Memory usage,  
 Disk activity,  
-Network activity,  
-Relevant system logs.  
+Network activity,   
 
 This creates a reference point for later comparison.
 
